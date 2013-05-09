@@ -1,0 +1,145 @@
+.deck-container {
+  font-family: "Helvetica Neue", sans-serif;
+  font-size: 1.25em;
+  background: #fff;
+}
+.deck-container .slide {
+  background: #fff;
+}
+.deck-container .slide h1 {
+  color: #000;
+  text-align: left;
+  line-height: .95em;
+}
+.deck-container .slide h1 span {
+  color: #C00;
+}
+.deck-container .slide .signature {
+  position: absolute;
+  top: 65%;
+  left: 4.2%;
+  font-size: 1.3em;
+  color: #666;
+}
+.deck-container .slide .css-logo{
+  -webkit-transform: scale(0.7);
+     -moz-transform: scale(0.7);
+          transform: scale(0.7);
+  position: absolute;
+  right: 70px;
+  top: 50px;
+}
+
+.deck-container .slide h2 {
+  color: #c00;
+  border-bottom-color: #999;
+  padding-bottom: .2em;
+}
+.deck-container .slide h3 {
+  color: #333;
+}
+.deck-container .slide h3.subtitle {
+  margin-left: -0.7em;
+font-size: 1.5em;
+}
+.deck-container .slide h3 .links{
+  color: #333!important;
+}
+.deck-container .slide .feedback-slide {
+  font-family: "Helvetica Neue", sans-serif;
+  font-weight: bold;
+  color: #000;
+  font-size: 4em;
+  text-align: center;
+  margin-top: 3em;
+}
+.deck-container .slide pre {
+  border-color: #ccc;
+}
+.deck-container .slide code {
+  color: #888;
+}
+.deck-container .slide blockquote {
+  font-size: 2em;
+  font-style: italic;
+  padding: 1em 2em;
+  color: #000;
+  border-left: 5px solid #ccc;
+}
+.deck-container .slide blockquote p {
+  margin: 0;
+}
+.deck-container .slide blockquote cite {
+  font-size: .5em;
+  font-style: normal;
+  font-weight: bold;
+  color: #888;
+}
+.deck-container .slide ::-moz-selection {
+  background: #c00;
+  color: #fff;
+}
+.deck-container .slide ::selection {
+  background: #c00;
+  color: #fff;
+}
+.deck-container .slide a, .deck-container .slide a:hover, .deck-container .slide a:focus, .deck-container .slide a:active, .deck-container .slide a:visited {
+  color: #c00;
+  text-decoration: none;
+}
+.deck-container .slide a:hover, .deck-container .slide a:focus {
+  text-decoration: underline;
+}
+.deck-container .deck-prev-link {
+  background: url(../../img/arrow-prev.png);
+  width: 48px;
+  height: 48px;
+  font-size: 0;
+}
+
+.deck-container .deck-next-link {
+  background: url(../../img/arrow-next.png);
+  width: 48px;
+  height: 48px;
+  font-size: 0;
+}
+.deck-container .deck-prev-link, .deck-container .deck-prev-link:hover, .deck-container .deck-prev-link:focus, .deck-container .deck-prev-link:active, .deck-container .deck-prev-link:visited, .deck-container .deck-next-link, .deck-container .deck-next-link:hover, .deck-container .deck-next-link:focus, .deck-container .deck-next-link:active, .deck-container .deck-next-link:visited {
+  color: #fff;
+}
+.deck-container .deck-prev-link:hover, .deck-container .deck-prev-link:focus {
+  background: url(../../img/arrow-prev-over.png);
+  width: 48px;
+  height: 48px;
+}
+.deck-container .deck-next-link:hover, .deck-container .deck-next-link:focus {
+  background: url(../../img/arrow-next-over.png);
+  width: 48px;
+  height: 48px;
+}
+.deck-container .deck-status {
+  font-size: 0.6666em;
+}
+.deck-container.deck-menu .slide {
+  background: #eee;
+}
+.deck-container.deck-menu .deck-current, .no-touch .deck-container.deck-menu .slide:hover {
+  background: #ddf;
+}
+
+.snow-container {
+      background: url(../../img/prague.jpg) no-repeat;
+      margin: 0 auto;
+      height: 600px;
+    }
+
+    .snow-pattern {
+      width: 100%;
+      height: 100%;
+        background-image: url('../../img/snow.png'), url('../../img/snow2.png'), url('../../img/snow3.png');
+        -webkit-animation: snow 20s linear infinite;
+    }
+
+    @-webkit-keyframes snow {
+      0% {background-position: 0px 0px;}
+      100% {background-position: 500px 1000px, 400px 400px, 300px 300px;}
+    }
